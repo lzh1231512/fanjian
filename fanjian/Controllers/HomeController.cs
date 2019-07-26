@@ -12,7 +12,7 @@ namespace fanjian.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Redirect("~/fanjian.html");
         }
 
         public IActionResult Privacy()
