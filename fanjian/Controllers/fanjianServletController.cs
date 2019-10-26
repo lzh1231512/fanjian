@@ -17,7 +17,7 @@ namespace fanjian.Controllers
             Response.Headers.Add("Access-Control-Allow-Methods", "POST");
             Response.Headers.Add("Access-Control-Allow-Headers",
                 "x-requested-with,content-type");
-            String url = "http://m.fanjian.net";
+            String url = "http://m.ifanjian.net";
             if (code != null && code!=(""))
             {
                 url = url + "/post/" + code;
